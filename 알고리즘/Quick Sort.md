@@ -42,8 +42,14 @@
 - 최악의 경우
 
   - 리스트가 계속 불균형하게 나뉘어지는 경우 순환 깊이가 n 이 된다.
+
+    ex) 오름차순의 경우 피봇이 항상 최소값 (혹은 이미 정렬 된 경우)
+
   - 각 순환 호출 단계에서 비교 연산의 횟수도 평균 n 번이다.
+
   - 따라서 k * 비교연산 횟수 = n^2
+
+    <img src="https://gmlwjd9405.github.io/images/algorithm-quick-sort/sort-time-complexity-etc2.png" alt="최악의경우" width="350;" />
 
   O(n^2)
 
@@ -59,9 +65,9 @@
 
 ## 분할 방법
 
-호어 방식과 로무토 방식이 있다.
+호어 파티션 방법과 로무토 파티션 방법 등이 있다.
 
-### 호어 파티션 (Hoare Partition)
+참고 링크 https://ldgeao99.tistory.com/376 
 
 
 
